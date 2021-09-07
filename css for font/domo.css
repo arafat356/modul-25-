@@ -12,6 +12,32 @@ body {
   
   .dark-mode {
     background-color: black;
-    color: white;
+    color: black;
     font-weight: bold;
   }
+
+  #submit-button {
+    border: 1px solid;
+
+    box-shadow: 5px 10px #d3d3d3;
+}
+
+#dark-mode{
+    border: 1px solid;
+    box-shadow:5px 10px red ;
+}
+ 
+#dark-mode2{
+    border:  1px solid;
+    box-shadow: 5px 10px rebeccapurple;
+}
+
+#withdraw-button{
+    border: 1px solid;
+    box-shadow: 5px 10px yellowgreen;
+}
+
+#deposite-button{
+    border: 1px solid;
+    box-shadow: 5px 10px yellowgreen;
+}

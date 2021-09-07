@@ -20,4 +20,5 @@ if (userEmail=='demo@gmail.com' && userPassword =='demofor'){
 function myFunction() {
     var element = document.body;
     element.classList.toggle("dark-mode");
+   
  }
