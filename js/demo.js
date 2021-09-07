@@ -52,4 +52,15 @@ const newWithdrawAmount = parseFloat(withdrawAmountText);
     // clear withdraw input 
 
     withdrawInput.value= '';
+
+    // update balance 
+
+    const balanceTotal = document.getElementById('total-balance');
+    const previousBalanceText = balanceTotal.innerText;
+    const previousBalanceTotal =  parseFloat(previousBalanceText);
+    const newBalanceTotal = previousBalanceTotal - newWithdrawAmount;
+balanceTotal.innerText = newBalanceTotal;
+
+// clear balance total 
+blance
 })
