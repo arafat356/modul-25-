@@ -64,3 +64,10 @@ balanceTotal.innerText = newBalanceTotal;
 // clear balance total 
 blance
 })
+
+// this is the dark mode 
+
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
